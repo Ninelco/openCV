@@ -1,0 +1,2 @@
+YOLO:
+  model: yolov8n.pt
