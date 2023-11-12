@@ -3,7 +3,6 @@ import numpy as np
 from ultralytics import YOLO
 from PIL import Image
 import yaml
-from ultralytics.utils.plotting import Annotator  # ultralytics.yolo.utils.plotting is deprecated
 
 with open("config.yaml", "r") as file:
     data = yaml.safe_load(file)
